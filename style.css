@@ -30,6 +30,11 @@ body{
     justify-content: space-between;
 }
 
+.Flex2 {
+    display: flex;
+    align-items: center;
+}
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -97,6 +102,7 @@ main {
     height: 75vh;
     background: url(IMG/banner.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -113,6 +119,34 @@ main h2 {
     margin: 20px 0px 50px 0px;
 }
 
+/* Sobre */
+#sobre {
+    padding: 50px 0px;
+    background: url(IMG/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#destaqueSobre {
+    display: none;
+  }
+
+#textoSobre {
+    color: #fff;
+    padding: 0px 10px;
+  }
+
+#textoSobre h2 {
+    margin-bottom: 10px;
+}
+
+.topicosSobre {
+    margin-top: 20px;
+}
+
+.topicosSobre img {
+    margin-right: 10px;
+}
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
     /*Layout*/
@@ -196,5 +230,19 @@ main h2 {
      nav ul li a:hover {
         color: #c00000;
      }
+
+    /* Sobre */
+    #sobre {
+        background-attachment: fixed;
+    }
+    
+    #destaqueSobre {
+        display: inline;
+    }
+
+    #destaqueSobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+    }
 }
 
