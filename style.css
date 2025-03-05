@@ -60,8 +60,8 @@ header {
 }
 
 #logo img {
-    width: 128px;
-    height: 128px;
+    width: 200px;
+    height: 130.25px;
 }
 
 #check {
@@ -70,6 +70,10 @@ header {
 
 label{
     font-size: 3em;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -99,7 +103,7 @@ nav ul li a {
 
 /* Destaque */
 main {
-    height: 75vh;
+    height: 51vh;
     background: url(IMG/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -235,7 +239,7 @@ main h2 {
     #sobre {
         background-attachment: fixed;
     }
-    
+
     #destaqueSobre {
         display: inline;
     }
